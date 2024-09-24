@@ -17,10 +17,10 @@ min_price = st.slider("Select Minimum Median House Price", 0, 500001, 200000)
 # 过滤数据
 
 # 显示地图
-st.map(filtered_data)
+st.map(data)
 
 # 显示直方图
-plt.hist(filtered_data)
+plt.hist(data)
 st.pyplot(plt)
 
 # 显示最终过滤后的数据

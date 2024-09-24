@@ -24,4 +24,4 @@ plt.hist(data['median_house_value'])
 st.pyplot(plt)
 
 # 显示最终过滤后的数据
-st.write("Filtered Housing Data", filtered_data)
+st.write("Filtered Housing Data"data)
